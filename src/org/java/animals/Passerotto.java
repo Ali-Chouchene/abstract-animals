@@ -8,6 +8,10 @@ public class Passerotto extends Animale {
 
 	}
 
+	public void vola() {
+		System.out.println("Sto Volando!!!");
+	}
+
 	@Override
 	public void mangia() {
 		System.out.println("Semi");

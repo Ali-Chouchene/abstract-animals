@@ -8,6 +8,10 @@ public class Aquila extends Animale {
 
 	}
 
+	public void vola() {
+		System.out.println("Sto Volando!!!");
+	}
+
 	@Override
 	public void mangia() {
 		System.out.println("Carne");

@@ -11,9 +11,17 @@ public class Zoo {
 
 		Animale[] animals = { balto, tity, usa, flipper };
 
-		for (int i = 0; i < 4; i++) {
-
+		for (int i = 0; i < animals.length; i++) {
+			System.out.println(animals[i].toString());
+			animals[i].verso();
+			System.out.println("----------------\n");
 		}
+
+		AnimaleManager man = new AnimaleManager();
+		System.out.println("----------------------------\n");
+		man.faiNuotare(flipper);
+
+		man.faiVolare(balto);
 	}
 
 }
